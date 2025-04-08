@@ -28,11 +28,8 @@ namespace TaskManager.Features.Board.Queries.GetBoard
                 BoardId = board.Id,
                 OrgId = board.OrgId,
                 Title = board.Title,
-                ImageId = board.ImageId,
-                ImageThumbUrl = board.ImageThumbUrl,
-                ImageFullUrl = board.ImageFullUrl,
-                ImageUserName = board.ImageUserName,
-                ImageLinkHtml = board.ImageLinkHtml
+                CreatedAt = board.CreatedAt,
+                UpdatedAt = board.UpdatedAt
             };
         }
     }

@@ -28,11 +28,6 @@ namespace TaskManager.Features.Board.Commands.UpdateBoard
 
             // Update properti board
             board.Title = command.Title;
-            board.ImageId = command.ImageId;
-            board.ImageThumbUrl = command.ImageThumbUrl;
-            board.ImageFullUrl = command.ImageFullUrl;
-            board.ImageUserName = command.ImageUserName;
-            board.ImageLinkHtml = command.ImageLinkHtml;
             board.UpdatedAt = DateTime.UtcNow;
 
             await _db.SaveChangesAsync(cancellationToken);
@@ -42,11 +37,7 @@ namespace TaskManager.Features.Board.Commands.UpdateBoard
                 BoardId = board.Id,
                 OrgId = board.OrgId,
                 Title = board.Title,
-                ImageId = board.ImageId,
-                ImageThumbUrl = board.ImageThumbUrl,
-                ImageFullUrl = board.ImageFullUrl,
-                ImageUserName = board.ImageUserName,
-                ImageLinkHtml = board.ImageLinkHtml,
+                CreatedAt = board.CreatedAt,
                 UpdatedAt = board.UpdatedAt
             };
         }

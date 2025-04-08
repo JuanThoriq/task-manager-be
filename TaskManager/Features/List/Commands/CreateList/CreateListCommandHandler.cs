@@ -4,6 +4,7 @@ using TaskManager.Models.Response;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace TaskManager.Features.List.Commands.CreateList
 {
@@ -18,6 +19,14 @@ namespace TaskManager.Features.List.Commands.CreateList
 
         public async Task<ListResponse> Handle(CreateListCommand command, CancellationToken cancellationToken)
         {
+            // Ambil nilai maximum order pada board yang sama; jika tidak ada, gunakan default 0.
+            var maxOrder = await _db.Lists
+                .Where(l => l.BoardId == command.BoardId)
+                .MaxAsync(l => (int?)l.Order, cancellationToken) ?? 0;
+
+            // Set nilai order untuk list baru menjadi maxOrder + 1
+            command.Order = maxOrder + 1;
+
             var listEntity = new TaskManager.Entities.List
             {
                 Id = Guid.NewGuid(),

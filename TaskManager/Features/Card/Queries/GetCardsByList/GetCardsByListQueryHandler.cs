@@ -22,6 +22,7 @@ namespace TaskManager.Features.Card.Queries.GetCardsByLIst
         {
             var cards = await _db.Cards
                 .Where(c => c.ListId == request.ListId)
+                .OrderBy(c => c.Order)
                 .ToListAsync(cancellationToken);
 
             return cards.Select(c => new CardResponse

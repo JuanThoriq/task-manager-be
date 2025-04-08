@@ -1,0 +1,215 @@
+2025-04-07 14:40:50.668 +07:00 [INF] Now listening on: http://localhost:5273
+2025-04-07 14:40:50.754 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 14:40:50.755 +07:00 [INF] Hosting environment: Development
+2025-04-07 14:40:50.755 +07:00 [INF] Content root path: C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager
+2025-04-07 14:40:51.400 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger - null null
+2025-04-07 14:40:51.595 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger - 301 0 null 205.1576ms
+2025-04-07 14:40:51.597 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/index.html - null null
+2025-04-07 14:40:51.655 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/index.html - 200 null text/html;charset=utf-8 59.0355ms
+2025-04-07 14:40:51.663 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui.css - null null
+2025-04-07 14:40:51.669 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-bundle.js - null null
+2025-04-07 14:40:51.669 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-07 14:40:51.716 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-07 14:40:51.716 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-07 14:40:51.718 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 49.2277ms
+2025-04-07 14:40:51.718 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui.css - 200 152034 text/css 54.611ms
+2025-04-07 14:40:51.721 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-07 14:40:51.721 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 52.6717ms
+2025-04-07 14:40:51.935 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 14:40:51.935 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:40:51.936 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 1.5832ms
+2025-04-07 14:40:51.940 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/favicon-32x32.png - null null
+2025-04-07 14:40:51.941 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-07 14:40:51.941 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/favicon-32x32.png - 200 628 image/png 0.782ms
+2025-04-07 14:40:51.979 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.0573ms
+2025-04-07 14:40:52.021 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - null null
+2025-04-07 14:40:52.042 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.0782ms
+2025-04-07 14:40:52.184 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:40:52.184 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 14:40:52.184 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 0.4609ms
+2025-04-07 14:40:52.192 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.6542ms
+2025-04-07 15:13:50.641 +07:00 [INF] Now listening on: http://localhost:5273
+2025-04-07 15:13:50.716 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 15:13:50.717 +07:00 [INF] Hosting environment: Development
+2025-04-07 15:13:50.717 +07:00 [INF] Content root path: C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager
+2025-04-07 15:13:50.960 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/index.html - null null
+2025-04-07 15:13:51.141 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/index.html - 200 null text/html;charset=utf-8 187.011ms
+2025-04-07 15:13:51.393 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 15:13:51.393 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 15:13:51.395 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 2.2096ms
+2025-04-07 15:13:51.419 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.7273ms
+2025-04-07 15:13:51.447 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - null null
+2025-04-07 15:13:51.462 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0851ms
+2025-04-07 15:13:51.633 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 15:13:51.633 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 0.484ms
+2025-04-07 15:13:51.634 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 15:13:51.643 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2493ms
+2025-04-07 15:14:23.768 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5273/api/v1/boards - application/json 207
+2025-04-07 15:14:23.775 +07:00 [INF] CORS policy execution successful.
+2025-04-07 15:14:23.786 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.CreateBoard (TaskManager)'
+2025-04-07 15:14:23.810 +07:00 [INF] Route matched with {action = "CreateBoard", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBoard(TaskManager.Features.Board.Commands.CreateBoard.CreateBoardCommand) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 15:14:23.871 +07:00 [INF] Request to create board: {"OrgId":"org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9","Title":"asdasd","ImageId":"asdasd","ImageThumbUrl":"asdasd","ImageFullUrl":"asdasd","ImageUserName":"asdasd","ImageLinkHtml":"asdasd","$type":"CreateBoardCommand"}
+2025-04-07 15:14:24.122 +07:00 [ERR] Error creating board
+System.InvalidOperationException: 'OnConfiguring' cannot be used to modify DbContextOptions when DbContext pooling is enabled.
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.EntryWithoutDetectChanges(TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at TaskManager.Features.Board.Commands.CreateBoard.CreateBoardCommandHandler.Handle(CreateBoardCommand command, CancellationToken cancellationToken) in C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager\Features\Board\Commands\CreateBoard\CreateBoardCommandHandler.cs:line 35
+   at TaskManager.Controllers.BoardController.CreateBoard(CreateBoardCommand command) in C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager\Controllers\BoardController.cs:line 78
+2025-04-07 15:14:24.166 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-04-07 15:14:24.182 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.CreateBoard (TaskManager) in 370.0034ms
+2025-04-07 15:14:24.182 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.CreateBoard (TaskManager)'
+2025-04-07 15:14:24.186 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5273/api/v1/boards - 500 null application/problem+json; charset=utf-8 417.6994ms
+2025-04-07 15:15:12.860 +07:00 [INF] Now listening on: http://localhost:5273
+2025-04-07 15:15:12.953 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 15:15:12.954 +07:00 [INF] Hosting environment: Development
+2025-04-07 15:15:12.954 +07:00 [INF] Content root path: C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager
+2025-04-07 15:15:13.437 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/index.html - null null
+2025-04-07 15:15:13.608 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/index.html - 200 null text/html;charset=utf-8 179.1817ms
+2025-04-07 15:15:13.624 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-bundle.js - null null
+2025-04-07 15:15:13.624 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-07 15:15:13.658 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-07 15:15:13.658 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-07 15:15:13.659 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 35.8267ms
+2025-04-07 15:15:13.659 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 35.809ms
+2025-04-07 15:15:13.826 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 15:15:13.826 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 15:15:13.827 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 1.5162ms
+2025-04-07 15:15:13.852 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.4151ms
+2025-04-07 15:15:13.883 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - null null
+2025-04-07 15:15:13.895 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.865ms
+2025-04-07 15:15:16.490 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 15:15:16.490 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 15:15:16.490 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 0.3939ms
+2025-04-07 15:15:16.500 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.5293ms
+2025-04-07 15:15:38.822 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5273/api/v1/boards - application/json 207
+2025-04-07 15:15:38.830 +07:00 [INF] CORS policy execution successful.
+2025-04-07 15:15:38.834 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.CreateBoard (TaskManager)'
+2025-04-07 15:15:38.868 +07:00 [INF] Route matched with {action = "CreateBoard", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBoard(TaskManager.Features.Board.Commands.CreateBoard.CreateBoardCommand) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 15:15:38.962 +07:00 [INF] Request to create board: {"OrgId":"org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9","Title":"asdasd","ImageId":"asdasd","ImageThumbUrl":"asdasd","ImageFullUrl":"asdasd","ImageUserName":"asdasd","ImageLinkHtml":"asdasd","$type":"CreateBoardCommand"}
+2025-04-07 15:15:40.802 +07:00 [INF] Executed DbCommand (88ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 100), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 50), @p8='?' (Size = 255), @p9='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Board] ([Id], [CreatedAt], [ImageFullUrl], [ImageId], [ImageLinkHTML], [ImageThumbUrl], [ImageUserName], [OrgId], [Title], [UpdatedAt])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2025-04-07 15:15:40.838 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'TaskManager.Models.Response.BoardResponse'.
+2025-04-07 15:15:40.879 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.CreateBoard (TaskManager) in 2007.4873ms
+2025-04-07 15:15:40.880 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.CreateBoard (TaskManager)'
+2025-04-07 15:15:40.891 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5273/api/v1/boards - 201 null application/json; charset=utf-8 2069.5888ms
+2025-04-07 15:16:14.199 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - null null
+2025-04-07 15:16:14.207 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 15:16:14.215 +07:00 [INF] Route matched with {action = "GetBoards", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBoards(System.String) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 15:16:14.235 +07:00 [INF] Request to get boards for OrgId: org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9
+2025-04-07 15:16:14.592 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@__request_OrgId_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedAt], [b].[ImageFullUrl], [b].[ImageId], [b].[ImageLinkHTML], [b].[ImageThumbUrl], [b].[ImageUserName], [b].[OrgId], [b].[Title], [b].[UpdatedAt]
+FROM [Board] AS [b]
+WHERE [b].[OrgId] = @__request_OrgId_0
+2025-04-07 15:16:14.616 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.Response.BoardResponse, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 15:16:14.618 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.GetBoards (TaskManager) in 402.4336ms
+2025-04-07 15:16:14.618 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 15:16:14.618 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - 200 null application/json; charset=utf-8 419.0304ms
+2025-04-07 15:16:37.735 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f - null null
+2025-04-07 15:16:37.736 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.GetBoard (TaskManager)'
+2025-04-07 15:16:37.750 +07:00 [INF] Route matched with {action = "GetBoard", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBoard(System.Guid) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 15:16:37.754 +07:00 [INF] Request to get board with ID: "3ab2a41d-17ad-4264-8baf-ab3bd2729d7f"
+2025-04-07 15:16:37.773 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__request_BoardId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[CreatedAt], [b].[ImageFullUrl], [b].[ImageId], [b].[ImageLinkHTML], [b].[ImageThumbUrl], [b].[ImageUserName], [b].[OrgId], [b].[Title], [b].[UpdatedAt]
+FROM [Board] AS [b]
+WHERE [b].[Id] = @__request_BoardId_0
+2025-04-07 15:16:37.774 +07:00 [INF] Executing OkObjectResult, writing value of type 'TaskManager.Models.Response.BoardResponse'.
+2025-04-07 15:16:37.775 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.GetBoard (TaskManager) in 24.1648ms
+2025-04-07 15:16:37.775 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.GetBoard (TaskManager)'
+2025-04-07 15:16:37.775 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f - 200 null application/json; charset=utf-8 40.0992ms
+2025-04-07 17:05:19.667 +07:00 [INF] Now listening on: http://localhost:5273
+2025-04-07 17:05:19.773 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 17:05:19.774 +07:00 [INF] Hosting environment: Development
+2025-04-07 17:05:19.774 +07:00 [INF] Content root path: C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager
+2025-04-07 17:05:19.972 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/index.html - null null
+2025-04-07 17:05:20.166 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/index.html - 200 null text/html;charset=utf-8 202.4217ms
+2025-04-07 17:05:20.394 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 17:05:20.394 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 17:05:20.397 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 3.2039ms
+2025-04-07 17:05:20.432 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2135ms
+2025-04-07 17:05:20.462 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - null null
+2025-04-07 17:05:20.479 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.027ms
+2025-04-07 18:54:07.356 +07:00 [INF] Now listening on: http://localhost:5273
+2025-04-07 18:54:07.517 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 18:54:07.519 +07:00 [INF] Hosting environment: Development
+2025-04-07 18:54:07.519 +07:00 [INF] Content root path: C:\Users\JuanThoriq\OneDrive - Bina Nusantara\Documents\Accelist Training\final_project\final_project_be\TaskManager
+2025-04-07 18:54:07.920 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/index.html - null null
+2025-04-07 18:54:08.106 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/index.html - 200 null text/html;charset=utf-8 193.2486ms
+2025-04-07 18:54:08.313 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 18:54:08.313 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 18:54:08.315 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.1358ms
+2025-04-07 18:54:08.336 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.0233ms
+2025-04-07 18:54:08.368 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - null null
+2025-04-07 18:54:08.382 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.4696ms
+2025-04-07 18:54:09.146 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 18:54:09.147 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/_vs/browserLink - null null
+2025-04-07 18:54:09.147 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 0.6693ms
+2025-04-07 18:54:09.162 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5834ms
+2025-04-07 23:06:49.672 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards - null null
+2025-04-07 23:06:49.692 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:06:49.739 +07:00 [INF] Route matched with {action = "GetBoards", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBoards(System.String) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 23:06:49.774 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-07 23:06:49.809 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.GetBoards (TaskManager) in 65.81ms
+2025-04-07 23:06:49.810 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:06:49.810 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards - 400 null application/problem+json; charset=utf-8 139.2107ms
+2025-04-07 23:07:10.545 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - null null
+2025-04-07 23:07:10.549 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:07:10.553 +07:00 [INF] Route matched with {action = "GetBoards", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBoards(System.String) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 23:07:10.586 +07:00 [INF] Request to get boards for OrgId: org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9
+2025-04-07 23:07:12.468 +07:00 [INF] Executed DbCommand (69ms) [Parameters=[@__request_OrgId_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedAt], [b].[ImageFullUrl], [b].[ImageId], [b].[ImageLinkHTML], [b].[ImageThumbUrl], [b].[ImageUserName], [b].[OrgId], [b].[Title], [b].[UpdatedAt]
+FROM [Board] AS [b]
+WHERE [b].[OrgId] = @__request_OrgId_0
+2025-04-07 23:07:12.571 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.Response.BoardResponse, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 23:07:12.585 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.GetBoards (TaskManager) in 2027.9589ms
+2025-04-07 23:07:12.586 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:07:12.597 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - 200 null application/json; charset=utf-8 2056.5675ms
+2025-04-07 23:07:32.026 +07:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f - null null
+2025-04-07 23:07:32.031 +07:00 [INF] CORS policy execution successful.
+2025-04-07 23:07:32.033 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.DeleteBoard (TaskManager)'
+2025-04-07 23:07:32.040 +07:00 [INF] Route matched with {action = "DeleteBoard", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteBoard(System.Guid) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 23:07:32.043 +07:00 [INF] Request to delete board with ID: "3ab2a41d-17ad-4264-8baf-ab3bd2729d7f"
+2025-04-07 23:07:32.073 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__command_BoardId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[CreatedAt], [b].[ImageFullUrl], [b].[ImageId], [b].[ImageLinkHTML], [b].[ImageThumbUrl], [b].[ImageUserName], [b].[OrgId], [b].[Title], [b].[UpdatedAt]
+FROM [Board] AS [b]
+WHERE [b].[Id] = @__command_BoardId_0
+2025-04-07 23:07:32.211 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Board]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-04-07 23:07:32.235 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-07 23:07:32.235 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.DeleteBoard (TaskManager) in 194.8566ms
+2025-04-07 23:07:32.235 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.DeleteBoard (TaskManager)'
+2025-04-07 23:07:32.236 +07:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f - 204 null null 210.6282ms
+2025-04-07 23:08:04.783 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f/lists - null null
+2025-04-07 23:08:04.789 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.ListController.GetListsByBoard (TaskManager)'
+2025-04-07 23:08:04.796 +07:00 [INF] Route matched with {action = "GetListsByBoard", controller = "List"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListsByBoard(System.Guid) on controller TaskManager.Controllers.ListController (TaskManager).
+2025-04-07 23:08:04.799 +07:00 [INF] Request to get lists for board "3ab2a41d-17ad-4264-8baf-ab3bd2729d7f"
+2025-04-07 23:08:04.811 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_BoardId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[BoardId], [l].[CreatedAt], [l].[Order], [l].[Title], [l].[UpdatedAt]
+FROM [List] AS [l]
+WHERE [l].[BoardId] = @__request_BoardId_0
+2025-04-07 23:08:04.812 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.Response.ListResponse, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 23:08:04.814 +07:00 [INF] Executed action TaskManager.Controllers.ListController.GetListsByBoard (TaskManager) in 17.1229ms
+2025-04-07 23:08:04.814 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.ListController.GetListsByBoard (TaskManager)'
+2025-04-07 23:08:04.814 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards/3ab2a41d-17ad-4264-8baf-ab3bd2729d7f/lists - 200 null application/json; charset=utf-8 31.1321ms
+2025-04-07 23:34:22.503 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - null null
+2025-04-07 23:34:22.536 +07:00 [INF] Executing endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:34:22.537 +07:00 [INF] Route matched with {action = "GetBoards", controller = "Board"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBoards(System.String) on controller TaskManager.Controllers.BoardController (TaskManager).
+2025-04-07 23:34:22.537 +07:00 [INF] Request to get boards for OrgId: org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9
+2025-04-07 23:34:22.554 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_OrgId_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CreatedAt], [b].[ImageFullUrl], [b].[ImageId], [b].[ImageLinkHTML], [b].[ImageThumbUrl], [b].[ImageUserName], [b].[OrgId], [b].[Title], [b].[UpdatedAt]
+FROM [Board] AS [b]
+WHERE [b].[OrgId] = @__request_OrgId_0
+2025-04-07 23:34:22.554 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.Response.BoardResponse, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 23:34:22.555 +07:00 [INF] Executed action TaskManager.Controllers.BoardController.GetBoards (TaskManager) in 17.7711ms
+2025-04-07 23:34:22.555 +07:00 [INF] Executed endpoint 'TaskManager.Controllers.BoardController.GetBoards (TaskManager)'
+2025-04-07 23:34:22.555 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5273/api/v1/boards?orgId=org_2uqp8Y6hmQPqvPM7U9XDAbUbDH9 - 200 null application/json; charset=utf-8 51.9158ms

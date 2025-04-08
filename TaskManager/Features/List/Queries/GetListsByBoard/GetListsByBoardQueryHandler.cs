@@ -22,6 +22,7 @@ namespace TaskManager.Features.List.Queries.GetListsByBoard
         {
             var lists = await _db.Lists
                 .Where(l => l.BoardId == request.BoardId)
+                .OrderBy(l => l.Order)
                 .ToListAsync(cancellationToken);
 
             return lists.Select(l => new ListResponse

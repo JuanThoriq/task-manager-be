@@ -24,7 +24,22 @@ namespace TaskManager.Features.Card.Commands.DeleteCard
                 throw new Exception("Card not found.");
             }
 
+            // Simpan nilai order yang akan dihapus
+            int deletedOrder = cardEntity.Order;
+            Guid listId = cardEntity.ListId;
+
             _db.Cards.Remove(cardEntity);
+
+            // Update Order untuk card lain di dalam list yang sama yang memiliki order lebih tinggi
+            var cardsToUpdate = await _db.Cards
+                .Where(c => c.ListId == listId && c.Order > deletedOrder)
+                .ToListAsync(cancellationToken);
+
+            foreach (var card in cardsToUpdate)
+            {
+                card.Order -= 1;
+            }
+
             await _db.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }

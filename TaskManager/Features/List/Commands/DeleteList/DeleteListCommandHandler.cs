@@ -24,7 +24,22 @@ namespace TaskManager.Features.List.Commands.DeleteList
                 throw new Exception("List not found.");
             }
 
+            // Simpan nilai order yang akan dihapus
+            int deletedOrder = listEntity.Order;
+            Guid boardId = listEntity.BoardId;
+
             _db.Lists.Remove(listEntity);
+
+            // Update Order untuk card lain di dalam list yang sama yang memiliki order lebih tinggi
+            var listsToUpdate = await _db.Lists
+                .Where(l => l.BoardId == boardId && l.Order > deletedOrder)
+                .ToListAsync(cancellationToken);
+
+            foreach (var list in listsToUpdate)
+            {
+                list.Order -= 1;
+            }
+
             await _db.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }
