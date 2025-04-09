@@ -25,6 +25,24 @@ namespace TaskManager.Features.Card.Commands.UpdateCard
                 throw new Exception("Card not found.");
             }
 
+            // Jika order card berubah, cari card lain pada list yang sama dengan order target
+            if (cardEntity.Order != command.Order)
+            {
+                var cardToSwap = await _db.Cards.FirstOrDefaultAsync(
+                    c => c.ListId == cardEntity.ListId &&
+                         c.Order == command.Order &&
+                         c.Id != command.CardId,
+                    cancellationToken);
+
+                if (cardToSwap != null)
+                {
+                    // Lakukan pertukaran order: card yang ditemukan diberi order lama cardEntity
+                    cardToSwap.Order = cardEntity.Order;
+                    cardToSwap.UpdatedAt = DateTime.UtcNow;
+                }
+            }
+
+            // Update card yang sedang diubah
             cardEntity.Title = command.Title;
             cardEntity.Order = command.Order;
             cardEntity.Description = command.Description;
