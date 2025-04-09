@@ -6,8 +6,8 @@ namespace TaskManager.Features.Card.Commands.CreateCard
     {
         public CreateCardCommandValidator()
         {
-            RuleFor(x => x.ListId)
-                .NotEmpty().WithMessage("ListId is required.");
+            // RuleFor(x => x.ListId)
+            //     .NotEmpty().WithMessage("ListId is required.");
             RuleFor(x => x.Title)
                 .NotEmpty().WithMessage("Card title is required.")
                 .MinimumLength(3).WithMessage("Board title must be at least 3 characters.");

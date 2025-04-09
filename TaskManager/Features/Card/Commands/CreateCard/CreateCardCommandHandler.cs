@@ -23,6 +23,12 @@ namespace TaskManager.Features.Card.Commands.CreateCard
             var maxOrder = await _db.Cards
                 .Where(c => c.ListId == command.ListId)
                 .MaxAsync(c => (int?)c.Order, cancellationToken) ?? 0;
+            
+            var listExists = await _db.Lists.AnyAsync(l => l.Id == command.ListId, cancellationToken);
+            if (!listExists)
+            {
+                throw new Exception($"List with ID {command.ListId} does not exist.");
+            }
 
             // Set nilai order untuk card baru menjadi maxOrder + 1
             command.Order = maxOrder + 1;
@@ -38,8 +44,15 @@ namespace TaskManager.Features.Card.Commands.CreateCard
                 UpdatedAt = DateTime.UtcNow
             };
 
-            _db.Cards.Add(cardEntity);
-            await _db.SaveChangesAsync(cancellationToken);
+            try
+            {
+                _db.Cards.Add(cardEntity);
+                await _db.SaveChangesAsync(cancellationToken);
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new Exception($"Failed to save card. Ensure ListId '{command.ListId}' exists. Details: {ex.InnerException?.Message ?? ex.Message}", ex);
+            }
 
             return new CardResponse
             {
