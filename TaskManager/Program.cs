@@ -5,6 +5,8 @@ using MediatR;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using TaskManager.Middleware;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,11 +69,41 @@ builder.Services.AddCors(options =>
 // ----------------------------------------------------------------
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllersWithViews();
 
 // ----------------------------------------------------------------
-// 7. Build dan konfigurasi pipeline HTTP
+// 7. Registrasi Swagger untuk dokumentasi API (opsional)
+// ----------------------------------------------------------------
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+})
+.AddCookie(options =>
+{
+    options.Cookie.SameSite = SameSiteMode.None;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+})
+.AddGoogle(options =>
+{
+    options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+    options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+});
+builder.Services.AddAuthorization();
+builder.Services.AddControllersWithViews()
+    .AddCookieTempDataProvider();
+// ----------------------------------------------------------------
+// 8. Build dan konfigurasi pipeline HTTP
 // ----------------------------------------------------------------
 var app = builder.Build();
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 app.UseMiddleware<ExceptionMiddleware>();
 
@@ -82,7 +114,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAll");
-app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
