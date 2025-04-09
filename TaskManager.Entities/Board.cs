@@ -18,18 +18,6 @@ public partial class Board
     [StringLength(255)]
     public string Title { get; set; } = null!;
 
-    [StringLength(100)]
-    public string ImageId { get; set; } = null!;
-
-    public string ImageThumbUrl { get; set; } = null!;
-
-    public string ImageFullUrl { get; set; } = null!;
-
-    public string ImageUserName { get; set; } = null!;
-
-    [Column("ImageLinkHTML")]
-    public string ImageLinkHtml { get; set; } = null!;
-
     public DateTime CreatedAt { get; set; }
 
     public DateTime UpdatedAt { get; set; }
