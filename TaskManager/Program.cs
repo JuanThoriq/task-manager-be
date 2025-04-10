@@ -7,6 +7,7 @@ using FluentValidation.AspNetCore;
 using TaskManager.Middleware;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -88,6 +89,12 @@ builder.Services.AddAuthentication(options =>
 {
     options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
     options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+
+    options.ClaimActions.Add(new JsonKeyClaimAction("picture", "picture", "string"));
+    options.SaveTokens = true;
+
+    options.Scope.Add("profile"); // Needed to get the picture
+    options.Scope.Add("email");
 });
 builder.Services.AddAuthorization();
 builder.Services.AddControllersWithViews()
